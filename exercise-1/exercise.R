@@ -27,12 +27,5 @@ too_expensive <- total_cost > 1000
 # afford for $1,000
 max_puppies <- floor(1000/puppy_price)
 
-add_numbers <- function(a,b){
-  a+b
-}
-add_numbers(100,300)
-add_numbers <- function(first_number, second_number){
-  print(paste("The first number is", first_number))
-  first_number + second_number
-  }
-result <- add_numbers(50, 60)
+print(max_puppies)
+
